@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'ReemKufi';
+  font-family: 'Cocon';
   font-style: normal;
   font-weight: normal;
-  src: local('ReemKufi'), url('assets/font/ReemKufi-VariableFont_wght.ttf') format('truetype');
+  src: local('Cocon'), url('assets/font/cocon-next-arabic.ttf') format('truetype');
 }
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "ReemKufi", ReemKufi;
+  font-family: "Cocon", Cocon;
   color: #444444;
   direction: rtl;
 }
@@ -17,7 +17,11 @@ body {
 a {
   color: #ffc451;
   text-decoration: none;
-  font-family: "ReemKufi", ReemKufi;
+  font-family: "Cocon", Cocon;
+}
+
+p{
+  font-family: "Cocon", Cocon;
 }
 
 a:hover {
@@ -31,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "ReemKufi", ReemKufi;
+  font-family: "Cocon", Cocon;
 }
 
 /*--------------------------------------------------------------
